@@ -81,4 +81,10 @@ final List<SliverExample> sliverExamples = [
     route: '/sliver_fill_viewport',
     icon: Icons.view_carousel,
   ),
+  const SliverExample(
+    title: 'SliverReorderableList',
+    description: 'A sliver that allows users to reorder its children by dragging and dropping.',
+    route: '/sliver_reorderable_list',
+    icon: Icons.drag_indicator,
+  ),
 ];
