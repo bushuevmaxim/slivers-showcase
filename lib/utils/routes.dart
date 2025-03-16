@@ -10,6 +10,7 @@ import '../screens/examples/sliver_animated_list_example.dart';
 import '../screens/examples/sliver_opacity_example.dart';
 import '../screens/examples/sliver_padding_example.dart';
 import '../screens/examples/sliver_layout_builder_example.dart';
+import '../screens/examples/sliver_fill_viewport_example.dart';
 
 class AppRoutes {
   static Map<String, WidgetBuilder> routes = {
@@ -24,5 +25,6 @@ class AppRoutes {
     '/sliver_opacity': (context) => const SliverOpacityExample(),
     '/sliver_padding': (context) => const SliverPaddingExample(),
     '/sliver_layout_builder': (context) => const SliverLayoutBuilderExample(),
+    '/sliver_fill_viewport': (context) => const SliverFillViewportExample(),
   };
 }

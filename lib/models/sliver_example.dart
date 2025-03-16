@@ -75,4 +75,10 @@ final List<SliverExample> sliverExamples = [
     route: '/sliver_layout_builder',
     icon: Icons.auto_awesome_mosaic,
   ),
+  const SliverExample(
+    title: 'SliverFillViewport',
+    description: 'A sliver that fills the viewport with each child.',
+    route: '/sliver_fill_viewport',
+    icon: Icons.view_carousel,
+  ),
 ];

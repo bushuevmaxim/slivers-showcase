@@ -8,8 +8,8 @@ class SliverPaddingExample extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          SliverAppBar(
-            title: const Text('SliverPadding Example'),
+          const SliverAppBar(
+            title: Text('SliverPadding Example'),
             floating: true,
             snap: true,
           ),
