@@ -26,7 +26,6 @@ class _SliverAppBarExampleState extends State<SliverAppBarExample> {
             expandedHeight: 160.0,
             flexibleSpace: const FlexibleSpaceBar(
               title: Text('SliverAppBar'),
-              background: FlutterLogo(),
             ),
           ),
           const SliverToBoxAdapter(
